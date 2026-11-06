@@ -32,8 +32,8 @@ export type Brand = { name: string; logo?: string; link?: string };
 export const brandLink = (b: Brand) => b.link ?? `/shop?brand=${encodeURIComponent(b.name)}`;
 
 export const brandsData: Brand[] = [
-  { name: "Rolex", logo: "/images/Rolex.avif" },
-  { name: "Brand Two" },
+  { name: "Rolex", logo: "/brand/Rolex.avif" },
+  { name: "Oud Mood" },
   { name: "Brand Three" },
   { name: "Brand Four" },
   { name: "Brand Five" },
