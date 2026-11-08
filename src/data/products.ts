@@ -60,6 +60,59 @@ export const allProductsData: Product[] = [
     onSale: true,
     topSelling: true,
   },
+    {
+    id: 502,
+    title: " LOUIS VUITTON OMBRE NOMADE",
+    category: "perfumes",
+    srcUrl: "/images/LOUIS VUITTON OMBRE NOMADE 1.jpeg",
+    gallery: ["/images/LOUIS VUITTON OMBRE NOMADE 1.jpeg", "/images/LOUIS VUITTON OMBRE NOMADE 2.AVIF"],
+    price: 2500,
+    discount: { amount: 0, percentage: 10 },
+    rating: 5,
+    description: "The fragrance features Agarwood (Oud), Rose, Raspberry, Saffron, Incense, Benzoin, Amberwood, Birch and Geranium. Long lasting, 4 to 6 hours.",
+    sizes: ["100ml"],
+    specs: [
+      { label: "Type", value: "Eau de Parfum" },
+      { label: "Notes", value: "Oud, Amber, warm spicy, rose, fruity, leather, smoky ,woody, sweet, metallic" },
+    ],
+    faqs: [
+      {
+        question: "How long does Oud Intense last?",
+        answer: "8+ hours on skin, longer on clothes.",
+      },
+      
+    ],
+    outOfStock: false,
+    newArrival: true,
+    onSale: true,
+    topSelling: true,
+  },
+      {
+    id: 503,
+    title: " J. WHITE MUSK",
+    category: "perfumes",
+    srcUrl: "/images/J. WHITE MUSK 1.jpeg",
+    gallery: ["/images/J. WHITE MUSK 1.jpeg"],
+    price: 1000,
+    discount: { amount: 0, percentage: 10 },
+    rating: 5,
+    description: "The fragrance features Italian Lemon, Mint, Green Apple, White Floral, Vanilla, Woody. Long lasting, 4 to 6 hours.",
+    sizes: ["100ml"],
+    specs: [
+      { label: "Type", value: "Eau de Parfum" },
+      { label: "Notes", value: "Fresh, Woody, Italian Lemon, Mint, Green Apple, White Floral, Vanilla" },
+    ],
+    faqs: [
+      {
+        question: "How long does Oud Intense last?",
+        answer: "8+ hours on skin, longer on clothes.",
+      },
+    ],
+    outOfStock: false,
+    newArrival: true,
+    onSale: true,
+    topSelling: true,
+  },
 ];
 
 // Derived lists — don't edit these, change the flags above instead.
