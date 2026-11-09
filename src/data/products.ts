@@ -77,17 +77,16 @@ export const allProductsData: Product[] = [
     ],
     faqs: [
       {
-        question: "How long does Oud Intense last?",
+        question: "How long does LV OMBRE NOMADE last?",
         answer: "8+ hours on skin, longer on clothes.",
       },
-      
     ],
     outOfStock: false,
     newArrival: true,
     onSale: true,
     topSelling: true,
   },
-      {
+    {
     id: 503,
     title: " J. WHITE MUSK",
     category: "perfumes",
@@ -104,7 +103,85 @@ export const allProductsData: Product[] = [
     ],
     faqs: [
       {
-        question: "How long does Oud Intense last?",
+        question: "How long does J. WHITE MUSK last?",
+        answer: "8+ hours on skin, longer on clothes.",
+      },
+    ],
+    outOfStock: false,
+    newArrival: true,
+    onSale: true,
+    topSelling: true,
+  },
+  {
+    id: 504.,
+    title: " J.EXCLUSIVE",
+    category: "perfumes",
+    srcUrl: "/images/J.EXCLUSIVE 1.jpeg",
+    gallery: ["/images/J.EXCLUSIVE 1.jpeg"],
+    price: 1500,
+    discount: { amount: 0, percentage: 10 },
+    rating: 4.5,
+    description: "A name that represents elegance, uniqueness, luxury, and premium quality. Designed for those who love to stand out with confidence and style. Be exclusive, be extraordinary, be unforgettable. Long lasting, 4 to 6 hours.",
+    sizes: ["100ml"],
+    specs: [
+      { label: "Type", value: "Eau de Parfum" },
+      { label: "Notes", value: "Bergamot ,Lemon, Fresh Citrus, Pink Pepper, Jasmine, Rose, Lavender, Geranium, Vanilla, Amber, Musk, Sandalwood, Oud" },
+    ],
+    faqs: [
+      {
+        question: "How long does J.EXCLUSIVE last?",
+        answer: "8+ hours on skin, longer on clothes.",
+      },
+    ],
+    outOfStock: false,
+    newArrival: true,
+    onSale: true,
+    topSelling: true,
+  },
+  {
+    id: 505.,
+    title: "MAISON FRANCIS KURUDJIAN BACCARAT ROUGH 540 EXTRAIT DE PARFUM SPRAY",
+    category: "perfumes",
+    srcUrl: "/images/MAISON FRANCIS KURUDJIAN BACCARAT ROUGH 540 EXTRAIT DE PARFUM SPRAY 1.jpeg",
+    gallery: ["/images/MAISON FRANCIS KURUDJIAN BACCARAT ROUGH 540 EXTRAIT DE PARFUM SPRAY 1.jpeg"],
+    price: 3500,
+    discount: { amount: 0, percentage: 10 },
+    rating: 5.0,
+    description: "A luxurious and captivating fragrance inspired by the iconic Baccarat Rouge 540 scent profile. It combines sweet, warm, floral, and woody accords to create an elegant and unforgettable fragrance experience. Long lasting, 4 to 6 hours.",
+    sizes: ["100ml"],
+    specs: [
+      { label: "Type", value: "Eau de Parfum" },
+      { label: "Notes", value: "Saffron, Bitter Almond, Jasmine, Amber Floral Accord, Cedarwood, Amberwood, Musk, Woody Accords" },
+    ],
+    faqs: [
+      {
+        question: "How long does MAISON FRANCIS KURUDJIAN BACCARAT ROUGH 540 EXTRAIT DE PARFUM last?",
+        answer: "8+ hours on skin, longer on clothes.",
+      },
+    ],
+    outOfStock: false,
+    newArrival: true,
+    onSale: true,
+    topSelling: true,
+  },
+  {
+    id: 506.,
+    title: "TOM FORD NEROLI PORTOFINO COLOGNE",
+    category: "perfumes",
+    srcUrl: "/images/TOM FORD NEROLI PORTOFINO COLOGNE 1.jpeg",
+    gallery: ["/images/TOM FORD NEROLI PORTOFINO COLOGNE 1.jpeg"],
+    price: 5000,
+    discount: { amount: 0, percentage: 10 },
+    rating: 5.0,
+    description: "A refreshing and sophisticated fragrance inspired by the beautiful Italian Riviera. Neroli Portofino blends sparkling citrus, fresh aromatic herbs, and elegant floral notes to create a clean, luxurious, and uplifting scent. Long lasting, 4 to 6 hours.",
+    sizes: ["100ml"],
+    specs: [
+      { label: "Type", value: "Eau de Parfum" },
+      { label: "Notes", value: "Italian Bergamot, Sicilian Lemon, Mandarin Orange, Bitter Orange, Lavender, Rosemary, Tunisian Neroli, African Orange Blossom, Jasmine, Pittosporum, Amber, Ambrette, Angelica" },
+    ],
+    faqs: [
+      {
+        question: "How long does TOM FORD NEROLI PORTOFINO COLOGNE last?",
         answer: "8+ hours on skin, longer on clothes.",
       },
     ],
