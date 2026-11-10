@@ -28,7 +28,7 @@ export const reviewsData: Review[] = [
     id: 3,
     user: "Bilal R.",
     productId: 2,
-    content: '"Simple and classy leather strap watch. Great value with the discount."',
+    content: '"Simple and classy watch with a stainless steel case and a black chain strap. The chronograph works properly too. Great value, especially with the discount."',
     rating: 4,
     date: "October 9, 2026",
   },
